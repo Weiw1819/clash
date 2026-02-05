@@ -1,8 +1,9 @@
-[https://mihomoparty.net/clients/  
+https://mihomoparty.net/clients/  
 https://github.com/clash-download/Clash
 
 1.代理协议
-
+主流协议, 包括 Shadowsocks,ShadowsocksR,VMess, Vless, Trojan, Tuic, Socks, Http, Hysteria, Hysteria2, Wireguard, AnyTLS, Mieru 等.
+Shadowsocks、NaïveProxy、VMess、VLESS、TUIC、WireGuard、Trojan、和Hysteria。  
 
 2.代理内核  
 Mihomo（原名 Clash Meta）是一款开源的网络代理核心（Proxy Core），由 MetaCubeX 组织维护开发。Mihomo 本身是一个纯命令行代理核心（Core），不包含图形界面（GUI）  
@@ -13,11 +14,11 @@ sing-box 本身是纯命令行代理核心（Core），不包含图形界面，�
 https://github.com/SagerNet/sing-box（30K）
 
 内核名称|	开发组织/作者|	特点	|协议支持	|开源
-Xray-core|	XTLS 组织|	V2Ray 超集，性能优化，支持 XTLS/REALITY|	VMess/VLESS/Trojan/Shadowsocks + REALITY|	✅
-sing-box|	SagerNet (Project S)	|现代化架构，模块化设计，支持链式代理|	全协议（含 Hysteria2/TUIC/REALITY/WireGuard）|	✅
-Mihomo	|MetaCubeX|	Clash.Meta 增强版，规则引擎强大	VMess/VLESS/Trojan/Shadowsocks + Hysteria2/TUIC|	✅
+Xray-core|	XTLS 组织 |	V2Ray 超集，性能优化，支持 XTLS/REALITY |	VMess/VLESS/Trojan/Shadowsocks + REALITY|	✅
+sing-box|	SagerNet (Project S)	|现代化架构，模块化设计，支持链式代理 |	全协议（含 Hysteria2/TUIC/REALITY/WireGuard）|	✅
+Mihomo	|MetaCubeX |	Clash.Meta 增强版，规则引擎强大	VMess/VLESS/Trojan/Shadowsocks + Hysteria2/TUIC|	✅
 v2fly-core|	v2fly 社区|	V2Ray 官方维护分支，稳定但功能保守	|基础协议（VMess/VLESS/Trojan/Shadowsocks）|	✅
-clash|	Dreamacro	|原版 Clash，轻量级	|基础协议（SS/VMess/Trojan）|	✅
+clash|	Dreamacro	|原版 Clash，轻量级	| 基础协议（SS/VMess/Trojan）|	✅
 
 
 
@@ -37,6 +38,9 @@ Tauri 是一个现代、轻量级的开源框架，用于使用 Web 前端技术
 sing-box-windows（sing-box）（Tauri框架）  
 https://github.com/xinggaoya/sing-box-windows  
 
+clash-nyanpasu（Tauri框架）
+https://github.com/libnyanpasu/clash-nyanpasu
+
 GUI.for.SingBox（sing-box）（Wails框架）  
 https://github.com/GUI-for-Cores/GUI.for.SingBox  
 Wails 是一个使用 Go 语言 编写的开源框架，用于构建 轻量级、高性能的跨平台桌面应用程序。它允许开发者用 Go 编写后端逻辑，同时使用 现代 Web 前端技术（如 Vue、React、Svelte、SolidJS 等）构建用户界面，最终将前后端打包成一个原生可执行文件（无需浏览器或 Electron 运行时）。https://github.com/wailsapp/wails  
@@ -48,67 +52,12 @@ FlClash（Dart）（Flutter框架）
 https://github.com/chen08209/FlClash  
 FlClash 是一个基于 Flutter（前端界面） 和 Go（核心网络引擎）技术栈开发的跨平台网络代理客户端。  
 Flutter 是由 Google 开发并开源 的一套 UI 工具包（UI toolkit），用于构建 高性能、高保真、跨平台的原生应用。使用 Flutter，开发者可以用 一套代码库 同时为 iOS、Android、Windows、macOS、Linux 和 Web 平台开发应用。  https://github.com/flutter/flutter  
-](https://mihomoparty.net/clients/
-https://github.com/clash-download/Clash
 
+hiddify-app（Flutter框架）   
+https://github.com/hiddify/hiddify-app  
 
-1. Agency Agreement
+karing（Flutter框架）  
+https://github.com/KaringX/karing  
 
-
-
-
-2. Proxy kernel
-Mihomo (formerly Clash Meta) is an open-source proxy core maintained and developed by the MetaCubeX organization. Mihomo is a pure command-line proxy core and does not include a graphical user interface (GUI).
-https://github.com/MetaCubeX/mihomo (27K)
-
-
-sing-box
-Sing-box itself is a pure command-line agent core without a graphical interface, similar to Mihomo/Clash. However, the community has developed several graphical client (GUI) wrappers around the Sing-box core, providing a visual operating experience.
-https://github.com/SagerNet/sing-box (30K)
-
-
-Kernel Name | Development Organization/Author | Features | License Support | Open Source
-Xray-core | XTLS Organization | V2Ray Superset, performance optimized, supports XTLS/REALITY | VMess/VLESS/Trojan/Shadowsocks + REALITY | ✅
-Sing-box | SagerNet (Project S) | Modern architecture, modular design, supports chained proxies | Full protocol support (including Hysteria2/TUIC/REALITY/WireGuard) | ✅
-Mihomo | MetaCubeX | Enhanced version of Clash.Meta, powerful rule engine: VMess/VLESS/Trojan/Shadowsocks + Hysteria2/TUIC | ✅
-v2fly-core | v2fly community | Officially maintained branch of V2Ray, stable but with conservative features | Basic protocols (VMess/VLESS/Trojan/Shadowsocks) | ✅
-Clash | Dreamacro | Original Clash, lightweight | Basic protocols (SS/VMess/Trojan) | ✅
-
-
-
-
-
-
-3. Proxy software
-v2rayN (C#) (WPF framework)
-https://github.com/2dust/v2rayN
-
-
-clash-party (Mihomo) (TypeScript) (Electron framework)
-https://github.com/mihomo-party-org/clash-party
-Electron is an open-source desktop application development framework developed and maintained by GitHub (now owned by Microsoft). It allows developers to build cross-platform desktop applications using web technologies (HTML, CSS, JavaScript), supporting Windows, macOS, and Linux. https://github.com/electron/electron
-
-
-clash-verge-rev (Mihomo) (TypeScript) (Tauri framework)
-https://github.com/clash-verge-rev/clash-verge-rev
-Tauri is a modern, lightweight, open-source framework for building secure, high-performance, cross-platform desktop applications using web front-end technologies (HTML/CSS/JavaScript or front-end frameworks such as React, Vue, Svelte, etc.). https://github.com/tauri-apps/tauri
-Original repository: https://github.com/zzzgydi/clash-verge
-
-
-sing-box-windows (sing-box) (Tauri framework)
-https://github.com/xinggaoya/sing-box-windows
-
-
-GUI.for.SingBox(sing-box) (Wails frame)
-https://github.com/GUI-for-Cores/GUI.for.SingBox
-Wails is an open-source framework written in Go for building lightweight, high-performance cross-platform desktop applications. It allows developers to write backend logic in Go while using modern web frontend technologies such as Vue, React, Svelte, and SolidJS to build the user interface, ultimately packaging the frontend and backend into a single native executable (requiring no browser or Electron runtime). https://github.com/wailsapp/wails
-
-
-GUI for Clash (Mihomo) (Wails framework)
-https://github.com/GUI-for-Cores/GUI.for.Clash
-
-
-FlClash (Dart) (Flutter framework)
-https://github.com/chen08209/FlClash
-FlClash is a cross-platform network proxy client developed using the Flutter (front-end interface) and Go (core network engine) technology stack.
-Flutter is a UI toolkit developed and open-sourced by Google for building high-performance, high-fidelity, cross-platform native applications. With Flutter, developers can use a single codebase to develop applications for iOS, Android, Windows, macOS, Linux, and Web platforms. https://github.com/flutter/flutter)
+nekoray（Qt框架）  
+https://github.com/MatsuriDayo/nekoray
