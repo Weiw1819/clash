@@ -1,4 +1,7 @@
 https://mihomoparty.net/clients/
+
+https://github.com/clash-download/Clash
+
 1.代理协议
 
 
@@ -20,18 +23,28 @@ clash|	Dreamacro	|原版 Clash，轻量级	|基础协议（SS/VMess/Trojan）|	�
 
 
 3.代理软件
-v2rayN
+v2rayN（C#）（WPF框架）
 https://github.com/2dust/v2rayN
 
-clash-party（Mihomo）
+clash-party（Mihomo）（TypeScript）（Electron框架）
 https://github.com/mihomo-party-org/clash-party
+Electron 是一个开源的桌面应用开发框架，由 GitHub（现属 Microsoft）开发并维护。它允许开发者使用 Web 技术（HTML、CSS、JavaScript） 来构建跨平台的桌面应用程序，支持 Windows、macOS 和 Linux。https://github.com/electron/electron
 
-clash-verge-rev（Mihomo）
+clash-verge-rev（Mihomo）（TypeScript）（Tauri框架）
 https://github.com/clash-verge-rev/clash-verge-rev
+Tauri 是一个现代、轻量级的开源框架，用于使用 Web 前端技术（HTML/CSS/JavaScript 或前端框架如 React、Vue、Svelte 等）构建安全、高性能的跨平台桌面应用程序。https://github.com/tauri-apps/tauri
 
-sing-box-windows（sing-box）
+sing-box-windows（sing-box）（Tauri框架）
 https://github.com/xinggaoya/sing-box-windows
 
-GUI.for.SingBox（sing-box）
+GUI.for.SingBox（sing-box）（Wails框架）
 https://github.com/GUI-for-Cores/GUI.for.SingBox
+Wails 是一个使用 Go 语言 编写的开源框架，用于构建 轻量级、高性能的跨平台桌面应用程序。它允许开发者用 Go 编写后端逻辑，同时使用 现代 Web 前端技术（如 Vue、React、Svelte、SolidJS 等）构建用户界面，最终将前后端打包成一个原生可执行文件（无需浏览器或 Electron 运行时）。https://github.com/wailsapp/wails
 
+GUI.for.Clash（Mihomo）（Wails框架）
+https://github.com/GUI-for-Cores/GUI.for.Clash
+
+FlClash（Dart）（Flutter框架）
+https://github.com/chen08209/FlClash
+FlClash 是一个基于 Flutter（前端界面） 和 Go（核心网络引擎）技术栈开发的跨平台网络代理客户端。
+Flutter 是由 Google 开发并开源 的一套 UI 工具包（UI toolkit），用于构建 高性能、高保真、跨平台的原生应用。使用 Flutter，开发者可以用 一套代码库 同时为 iOS、Android、Windows、macOS、Linux 和 Web 平台开发应用。https://github.com/flutter/flutter
