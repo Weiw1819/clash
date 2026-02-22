@@ -24,53 +24,24 @@ https://github.com/SagerNet/sing-box（30K）
 
 
 3.代理软件  
-v2rayN（C#）（WPF框架）  
-https://github.com/2dust/v2rayN  
 
-clash-party（Mihomo）（TypeScript）（Electron框架）  
-https://github.com/mihomo-party-org/clash-party  
-Electron 是一个开源的桌面应用开发框架，由 GitHub（现属 Microsoft）开发并维护。它允许开发者使用 Web 技术（HTML、CSS、JavaScript） 来构建跨平台的桌面应用程序，支持 Windows、macOS 和 Linux。https://github.com/electron/electron  
+|名称	|	框架	|链接|star|
+| :---:  | :---: |:---: |:---: |
+|v2rayN  | https://github.com/dotnet/wpf | https://github.com/2dust/v2rayN  |![GitHub stars](https://img.shields.io/github/stars/2dust/v2rayN.svg?style=social)|
+|clash-party（Mihomo） | https://github.com/electron/electron | https://github.com/mihomo-party-org/clash-party  | ![GitHub stars](https://img.shields.io/github/stars/mihomo-party-org/clash-party.svg?style=social) |
+|clash-verge-rev（Mihomo） | https://github.com/tauri-apps/tauri | https://github.com/clash-verge-rev/clash-verge-rev  |![GitHub stars](https://img.shields.io/github/stars/clash-verge-rev/clash-verge-rev.svg?style=social)|
+|sing-box-windows（sing-box）| https://github.com/tauri-apps/tauri |https://github.com/xinggaoya/sing-box-windows  |![GitHub stars](https://img.shields.io/github/stars/xinggaoya/sing-box-windows.svg?style=social)|
+|clash-nyanpasu | https://github.com/tauri-apps/tauri | https://github.com/libnyanpasu/clash-nyanpasu | ![GitHub stars](https://img.shields.io/github/stars/libnyanpasu/clash-nyanpasu.svg?style=social) |
+|GUI.for.SingBox（sing-box）| https://github.com/wailsapp/wails | https://github.com/GUI-for-Cores/GUI.for.SingBox  |![GitHub stars](https://img.shields.io/github/stars/GUI-for-Cores/GUI.for.SingBox.svg?style=social)|
+|GUI.for.Clash（Mihomo）| https://github.com/wailsapp/wails | https://github.com/GUI-for-Cores/GUI.for.Clash | ![GitHub stars](https://img.shields.io/github/stars/GUI-for-Cores/GUI.for.Clash.svg?style=social) |
+|FlClash  | https://github.com/flutter/flutter| https://github.com/chen08209/FlClash  |![GitHub stars](https://img.shields.io/github/stars/chen08209/FlClash.svg?style=social)|
+|hiddify-app | https://github.com/flutter/flutter | https://github.com/hiddify/hiddify-app  |![GitHub stars](https://img.shields.io/github/stars/hiddify/hiddify-app.svg?style=social)|
+|karing | https://github.com/flutter/flutter | https://github.com/KaringX/karing  |![GitHub stars](https://img.shields.io/github/stars/KaringX/karing.svg?style=social)|
+|nekoray | Qt框架  | https://github.com/MatsuriDayo/nekoray  |![GitHub stars](https://img.shields.io/github/stars/MatsuriDayo/nekoray.svg?style=social)|
+|Qv2ray | Qt框架 | https://github.com/Qv2ray/Qv2ray  |![GitHub stars](https://img.shields.io/github/stars/Qv2ray/Qv2ray.svg?style=social)|
+|shadowsocks-qt5 | Qt框架 |  https://github.com/shadowsocks/shadowsocks-qt5  |![GitHub stars](https://img.shields.io/github/stars/shadowsocks/shadowsocks-qt5.svg?style=social)|
 
-clash-verge-rev（Mihomo）（TypeScript）（Tauri框架）  
-https://github.com/clash-verge-rev/clash-verge-rev  
-Tauri 是一个现代、轻量级的开源框架，用于使用 Web 前端技术（HTML/CSS/JavaScript 或前端框架如 React、Vue、Svelte 等）构建安全、高性能的跨平台桌面应用程序。https://github.com/tauri-apps/tauri  
-原仓库：https://github.com/zzzgydi/clash-verge  
-
-sing-box-windows（sing-box）（Tauri框架）  
-https://github.com/xinggaoya/sing-box-windows  
-
-clash-nyanpasu（Tauri框架）  
-https://github.com/libnyanpasu/clash-nyanpasu
-
-GUI.for.SingBox（sing-box）（Wails框架）  
-https://github.com/GUI-for-Cores/GUI.for.SingBox  
-Wails 是一个使用 Go 语言 编写的开源框架，用于构建 轻量级、高性能的跨平台桌面应用程序。它允许开发者用 Go 编写后端逻辑，同时使用 现代 Web 前端技术（如 Vue、React、Svelte、SolidJS 等）构建用户界面，最终将前后端打包成一个原生可执行文件（无需浏览器或 Electron 运行时）。https://github.com/wailsapp/wails  
-
-GUI.for.Clash（Mihomo）（Wails框架）  
-https://github.com/GUI-for-Cores/GUI.for.Clash  
-
-FlClash（Dart）（Flutter框架）  
-https://github.com/chen08209/FlClash  
-FlClash 是一个基于 Flutter（前端界面） 和 Go（核心网络引擎）技术栈开发的跨平台网络代理客户端。  
-Flutter 是由 Google 开发并开源 的一套 UI 工具包（UI toolkit），用于构建 高性能、高保真、跨平台的原生应用。使用 Flutter，开发者可以用 一套代码库 同时为 iOS、Android、Windows、macOS、Linux 和 Web 平台开发应用。  https://github.com/flutter/flutter  
-
-hiddify-app（Flutter框架）   
-https://github.com/hiddify/hiddify-app  
-
-karing（Flutter框架）  
-https://github.com/KaringX/karing  
-
-nekoray（Qt框架）  
-https://github.com/MatsuriDayo/nekoray  
-
-Qv2ray（Qt框架）  
-https://github.com/Qv2ray/Qv2ray  
-
-shadowsocks-qt5（Qt框架）  
-https://github.com/shadowsocks/shadowsocks-qt5  
-
-Avalonia新框架（C#）  
-https://github.com/AvaloniaUI/Avalonia  
+Avalonia新框架（C#）  https://github.com/AvaloniaUI/Avalonia  
 
 # Windows 桌面端开发框架对比（2026）
 
